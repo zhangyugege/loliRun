@@ -1,0 +1,28 @@
+﻿生成启动时间为 2014/12/7 21:10:34。
+     1>项目“E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\LuoLiRun.win32.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vs2012\VC\bin\CL.exe /c /I. /I..\Classes /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\cocos2dx" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\cocos2dx\include" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\cocos2dx\kazmath\include" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\cocos2dx\platform\win32" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\cocos2dx\platform\third_party\win32" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\cocos2dx\platform\third_party\win32\OGLES" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\external" /I"E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4819 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\GameAboutScene.cpp ..\Classes\GameMainScene.cpp ..\Classes\GameMark.cpp ..\Classes\GameMenuScene.cpp ..\Classes\GameObjHero.cpp ..\Classes\GameObjMap.cpp ..\Classes\GameObjStar.cpp main.cpp
+         main.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\proj.win32\main.h(11): fatal error C1083: 无法打开包括文件:“CCStdC.h”: No such file or directory
+         GameObjStar.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gameobjstar.h(11): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameObjMap.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gameobjmap.h(11): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameObjHero.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gameobjhero.h(11): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameMenuScene.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gamemenuscene.h(12): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameMark.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gamemark.h(12): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameMainScene.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gamemainscene.h(11): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         GameAboutScene.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\gameaboutscene.h(11): fatal error C1083: 无法打开包括文件:“cocos2d.h”: No such file or directory
+         AppDelegate.cpp
+     1>e:\代码\2014.7.31\cocos\luolirun\classes\appdelegate.h(12): fatal error C1083: 无法打开包括文件:“CCApplication.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\代码\2014.7.31\cocos\LuoLiRun\proj.win32\LuoLiRun.win32.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.17

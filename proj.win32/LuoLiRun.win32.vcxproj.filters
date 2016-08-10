@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{f9e40994-162f-4a51-b9ee-1fe12e300bfc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{9c8be718-da84-4839-81a4-53d5c474c9f0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{c758496c-231b-4b45-954a-6ccbb27b1b05}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LuoLiRun.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\about.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\aboutA.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\aboutB.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back_1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back_2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back_3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back_4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back_5.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\backA.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\backB.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\background.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\continueA.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\continueB.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Default.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\enemy.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gameover.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon%402x.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-72.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-Small.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-Small%402x.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon-Small-50.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Info.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\iTunesArtwork">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\MainMenu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\newgameA.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\newgameB.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\road_1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\road_2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\road_3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\road_4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\road_5.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_4.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_5.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_6.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_7.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_8.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_hurt.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\s_jump.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\score.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\shu.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound-off-A.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound-off-B.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound-on-A.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sound-on-B.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\star.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\tb.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LuoLiRun.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAboutScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMainScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMark.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMenuScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjHero.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjMap.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObjStar.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAboutScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConst.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMainScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMark.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMenuScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjHero.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObjStar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
